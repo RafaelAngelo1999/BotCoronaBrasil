@@ -8,7 +8,6 @@ const filtroPesquisa = 'dados covid Brasil'
 // Import dependencies
 const Twit = require('twitter')
 const axios = require('axios')
-const cidades = require('./cidades.json');
 require('dotenv').config()
 
 // Configurando API Twitter
@@ -20,12 +19,6 @@ const Tweet = new Twit({
 })
 
 // Funções Globais
-function convertDate(inputFormat) {
-  function pad(s) { return (s < 10) ? '0' + s : s; }
-  var d = new Date(inputFormat)
-  return [pad(d.getDate()), pad(d.getMonth()+1), d.getFullYear()].join('/')
-}
-
 function formatarValor(valor) {
   return valor.toLocaleString('pt-BR');
 }
