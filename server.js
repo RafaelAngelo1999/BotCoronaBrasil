@@ -79,7 +79,7 @@ function retweet(event) {
       '\n'+ String.fromCodePoint(0x0001F480)+' '+ formatarValor(response.data.data.deaths)+' mortes.'+'\n'+ String.fromCodePoint(0x0001F691)+' '+ formatarValor(response.data.data.recovered)+' recuperadas.'+
       '\n'+ String.fromCodePoint(0x0001F557)+' '+ formatarData(response.data.data.updated_at)+' ultima atualização.'+ '\n\nMais informação: covid.saude.gov.br' +'\n#FiqueEmCasa' }, err => {
         if (err) {
-          return console.log("Erro no comentario: " + err)
+          return console.log("Erro no comentario : " + err)
         }
         return console.log("COMENTADO: " + `https:twitter.com/${screen_name}/status/${id_str}`)
       });
