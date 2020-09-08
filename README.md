@@ -35,6 +35,7 @@ No arquivo server.js, altere a variavel *filtroPesquisa*, para a frase/palavra d
 No arquivo server.js, altere a valor do atributo json *status* para a frase/palavra desejada, lembrando de sempre marcar o @screen_name 
 ```
 82  //Post Comentario / String.fromCodePoint (Emoji em Hexadecimal)
-83  Tweet.post('statuses/update', {in_reply_to_status_id : id_str,status: 'Olá 84  @' + screen_name + '.....'
+83  Tweet.post('statuses/update', {in_reply_to_status_id : id_str,status: 'Olá 
+84  @' + screen_name + '.....'
 ```
 ### Atualmente Hosteado no [Heroku](https://dashboard.heroku.com)
