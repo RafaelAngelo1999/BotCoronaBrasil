@@ -22,7 +22,15 @@ Para ambientes de produção ...
 $ npm install --production
 $ NODE_ENV=production node server.js
 ```
+### Editando as chaves de desenvolvedor
 
+Crie um arquivo *.env* na raiz do projeto, e adicione as seguintes variaveis com as  determinadas chaves de acesso chaves de acesso
+```
+1 BOT_CONSUMER_KEY=lGXmcbigvNxxxxxxxxxxxxxxxxx
+2 BOT_CONSUMER_SECRET=iAAPWfTyJ756eGzOUZGxxxxxxxxxxxxxxxxxxxxxxx
+3 BOT_ACCESS_TOKEN=1301576666376998912-xxxxxxxxxxxxxxxxxxxxxxxx
+4 BOT_ACCESS_TOKEN_SECRET=KSDbQpMR9iBiwADxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
 ### Editando a palavra desejada para pesquisa
 
 No arquivo server.js, altere a variavel *filtroPesquisa*, para a frase/palavra desejada
