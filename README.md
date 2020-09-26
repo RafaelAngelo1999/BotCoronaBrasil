@@ -1,5 +1,7 @@
 # BOT Twitter
 
+![](img/bot.gif)
+
 BOT Twitter é um bot desenvolvido para fornecer informações atualizadas de casos de Corona Virus no Brasil, o bot utiliza da api externa [COVID-19 Brazil API](https://covid19-brazil-api.now.sh/)  para fornecerer essas informações
 ### Bibliotecas externas utilizadas
 * [TwitterAPI](https://www.npmjs.com/package/twitter)
