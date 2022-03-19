@@ -1,5 +1,7 @@
 # BOT Twitter
 
+Atualização do codigo em TypeScript utilizando boas praticas 👉 [BOT Twitter (Refatoradi) *TS](https://github.com/RafaelAngelo1999/BOT.Covid19-Twitter)
+
 ![](img/bot.gif)
 
 BOT Twitter é um bot desenvolvido para fornecer informações atualizadas de casos de Corona Virus no Brasil, o bot utiliza da api externa [COVID-19 Brazil API](https://covid19-brazil-api.now.sh/)  para fornecerer essas informações
