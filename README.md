@@ -1,6 +1,6 @@
 # BOT Twitter
 
-Atualização do codigo em TypeScript utilizando boas praticas 👉 [BOT Twitter (Refatoradi) *TS](https://github.com/RafaelAngelo1999/BOT.Covid19-Twitter)
+Atualização do codigo em TypeScript utilizando boas praticas 👉 [BOT Twitter (Refatorado) *TS](https://github.com/RafaelAngelo1999/BOT.Covid19-Twitter)
 
 ![](img/bot.gif)
 
